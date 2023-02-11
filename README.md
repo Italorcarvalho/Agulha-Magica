@@ -1,26 +1,34 @@
-Agulha-Magica-Ecommerce
-Projeto de um E-Commerce de produtos artesanais.
+
+Projeto de um E-Commerce de produtos artesanais chamado Agulha Mágica.
 
 Projeto criado para a disciplina de Trabalho de conclusão de curso (TCC) de Sistemas de Informação do Centro Universitário Projeção (UniProjeção)!
+
+
+
+
+
+
+
+
 
 <h2>Frameworks e Tecnologias Utilizadas:</h2>
 
 
 <ul>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>JAVA</li>
-  <li>JAVASCRIPT</li>
-  <li>Banco de dados MySQL</li>
-  <li>NetBeans IDE</li>
+  <li>HTML - linguagem de Marcação</li>
+  <li>CSS - linguagem de Estilo</li>
+  <li>JAVA - linguagem de Programação</li>
+  <li>JAVASCRIPT - linguagem de programação interpretada</li>
+  <li><a href="https://www.mysql.com/" target="_blank">MySQL</a> - banco de dados </li>
+  <li><a href="https://netbeans.apache.org/" target="_blank">NetBeans IDE</a> - ambiente de desenvolvimento (Framework)</li>
 </ul>
 
-<h2>Instalação e ultilização:</h2>
+<h2>Como executar:</h2>
 
 <ol>
   <li>Instalação e execução</li>
-  <li>Instale o Netbeans IDE https://netbeans.apache.org/download/nb123/nb123.html</li>
-  <li>Instale o XAMPP https://www.apachefriends.org/pt_br/download.html</li>
+  <li>Instale o Netbeans IDE - <a href="https://netbeans.apache.org/" target="_blank">Link</a></li>
+  <li>Instale o XAMPP -  <a href="https://www.apachefriends.org/pt_br/download.html" target="_blank">Link</a></li>
   <li>Inicie o XAMPP e clique em Start nas opções Apache e MySQL</li>
   <li>Importe o Banco de dados "ecommerce.sql" na página do localhost do phpmyadmin</li>
   <li>Inicie o Netbeans IDE</li>
@@ -31,4 +39,4 @@ Projeto criado para a disciplina de Trabalho de conclusão de curso (TCC) de Sis
 
 <h3>Como contribuir para este projeto ?</h3>
 
-Inicie uma discusão atraves do link e contribua para este projeto !
+<p>Inicie uma discusão atraves do <a href="https://github.com/Italorcarvalho/Agulha-Magica/issues">link</a> e contribua para este projeto !</p>
