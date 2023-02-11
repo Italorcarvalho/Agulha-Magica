@@ -3,7 +3,7 @@ Projeto de um E-Commerce de produtos artesanais.
 
 Projeto criado para a disciplina de Trabalho de conclusão de curso (TCC) de Sistemas de Informação do Centro Universitário Projeção (UniProjeção)!
 
-Frameworks e Tecnologias Utilizadas:
+<h2>Frameworks e Tecnologias Utilizadas:</h2>
 
 
 <ul>
@@ -15,6 +15,7 @@ Frameworks e Tecnologias Utilizadas:
   <li>NetBeans IDE</li>
 </ul>
 
+<h2>Instalação e ultilização:</h2>
 
 <ol>
   <li>Instalação e execução</li>
@@ -26,6 +27,8 @@ Frameworks e Tecnologias Utilizadas:
   <li>Dentro da IDE clique em Arquivo e depois em Abrir Projeto (Canto superior esquerdo)</li>
   <li>Apos isso selecione a pasta do projeto "Ecommerce" e clique em abrir projeto</li>
   <li>Inicie o projeto clicando F6 (Executar Porjeto) ou clique no icone de player na barra superior</li>
-  <li>Como contribuir para este projeto ?</li>
-  <li>Inicie uma discusão atraves do link e contribua para este projeto !</li>
 </ol>
+
+<h3>Como contribuir para este projeto ?</h3>
+
+Inicie uma discusão atraves do link e contribua para este projeto !
