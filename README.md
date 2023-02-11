@@ -30,7 +30,7 @@ Projeto criado para a disciplina de Trabalho de conclusão de curso (TCC) de Sis
   <li>Instale o Netbeans IDE - <a href="https://netbeans.apache.org/" target="_blank">Link</a></li>
   <li>Instale o XAMPP -  <a href="https://www.apachefriends.org/pt_br/download.html" target="_blank">Link</a></li>
   <li>Inicie o XAMPP e clique em Start nas opções Apache e MySQL</li>
-  <li>Importe o Banco de dados "ecommerce.sql" na página do localhost do phpmyadmin</li>
+  <li>Importe o Banco de dados "ecommerce.sql" diretamente na página do localhost do phpmyadmin</li>
   <li>Inicie o Netbeans IDE</li>
   <li>Dentro da IDE clique em Arquivo e depois em Abrir Projeto (Canto superior esquerdo)</li>
   <li>Apos isso selecione a pasta do projeto "Ecommerce" e clique em abrir projeto</li>
