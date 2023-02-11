@@ -4,6 +4,9 @@ Projeto de um E-Commerce de produtos artesanais chamado Agulha Mágica.
 Projeto criado para a disciplina de Trabalho de conclusão de curso (TCC) de Sistemas de Informação do Centro Universitário Projeção (UniProjeção)!
 
 
+<div align="center"> 
+<img src="https://user-images.githubusercontent.com/65707337/218281396-a0c7b586-4eaa-4304-94cd-9cc8ac3256ba.png" width="350px" height="422" />
+</div>
 
 
 
