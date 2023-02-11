@@ -1,16 +1,21 @@
 Agulha-Magica-Ecommerce
 Projeto de um E-Commerce de produtos artesanais.
 
-Sobre
-Projeto criado para a disciplina de Trabalho de conclusão de curso (TCC) do Centro Universitário Projeção (UniProjeção)!
+Projeto criado para a disciplina de Trabalho de conclusão de curso (TCC) de Sistemas de Informação do Centro Universitário Projeção (UniProjeção)!
 
 Frameworks e Tecnologias Utilizadas:
 
-.Linguagem de programção JAVA
+.HTML
 
-.NetBeans IDE
+.CSS
+
+.JAVA
+
+.JAVASCRIPT
 
 .Banco de dados Mysql
+
+.NetBeans IDE
 
 .Instalação e execução
 .Instale o Netbeans IDE https://netbeans.apache.org/download/nb123/nb123.html
