@@ -1,7 +1,5 @@
-
-Projeto de um E-Commerce de produtos artesanais chamado Agulha Mágica.
-
-Projeto criado para a disciplina de Trabalho de conclusão de curso (TCC) de Sistemas de Informação do Centro Universitário Projeção (UniProjeção)!
+## Sobre o projeto:
+Projeto de um E-Commerce de produtos artesanais chamado Agulha Mágica. Criado para a disciplina de Trabalho de conclusão de curso (TCC) de Sistemas de Informação do Centro Universitário Projeção (UniProjeção)!
 
 
 <div align="center"> 
@@ -9,12 +7,7 @@ Projeto criado para a disciplina de Trabalho de conclusão de curso (TCC) de Sis
 </div>
 
 
-
-
-
-
-
-<h2>Frameworks e Tecnologias Utilizadas:</h2>
+## Frameworks e Tecnologias Utilizadas:
 
 
 <ul>
@@ -26,7 +19,7 @@ Projeto criado para a disciplina de Trabalho de conclusão de curso (TCC) de Sis
   <li><a href="https://netbeans.apache.org/" target="_blank">NetBeans IDE</a> - ambiente de desenvolvimento (Framework)</li>
 </ul>
 
-<h2>Como executar:</h2>
+## Como executar:
 
 <ol>
   <li>Instalação e execução</li>
@@ -40,6 +33,6 @@ Projeto criado para a disciplina de Trabalho de conclusão de curso (TCC) de Sis
   <li>Inicie o projeto clicando F6 (Executar Porjeto) ou clique no icone de player na barra superior</li>
 </ol>
 
-<h3>Como contribuir para este projeto ?</h3>
+## Como contribuir para este projeto ?
 
 <p>Inicie uma discusão atraves do <a href="https://github.com/Italorcarvalho/Agulha-Magica/issues">link</a> e contribua para este projeto !</p>
