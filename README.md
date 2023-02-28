@@ -65,7 +65,6 @@ A aplicação consiste em uma plataforma e-commerce completa de produtos artesan
 ## Como executar:
 
 <ol>
-  <li>Instalação e execução</li>
   <li>Instale o Netbeans IDE - <a href="https://netbeans.apache.org/" target="_blank">Link</a></li>
   <li>Instale o XAMPP -  <a href="https://www.apachefriends.org/pt_br/download.html" target="_blank">Link</a></li>
   <li>Inicie o XAMPP e clique em Start nas opções Apache e MySQL</li>
@@ -75,6 +74,7 @@ A aplicação consiste em uma plataforma e-commerce completa de produtos artesan
   <li>Apos isso selecione a pasta do projeto "Ecommerce" e clique em abrir projeto</li>
   <li>Inicie o projeto clicando F6 (Executar Porjeto) ou clique no icone de player na barra superior</li>
 </ol>
+<h5>Obs: Caso o NetBeans reclame da falta de uma biblioteca <b>.jar</b> entre nesse site, faça o download e importe o arquivo na hora da execução:<a href="https://jar-download.com/artifacts/org.json"> Link</a></h5>
 
 ## Como contribuir para este projeto ?
 
