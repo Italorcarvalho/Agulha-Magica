@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <jsp:include page="cabecalho.jsp"/>
+
+    <body>
+        <!-- Barra Superior Inicio -->
+        <jsp:include page="barra_superior.jsp"/>
+        <!-- Barra Superior Final -->    
+
+        <!-- Conteudo Inicio -->
+        <div class="contact">
+            <div class="container-fluid">
+                <div class="row">      
+                    <div class="col-lg-12">
+                        <div class="contact-info">
+                            <h2>Política de Pagamento </h2>
+                            <br>
+                            Na Agulha Mágica - Artesanatos você poderá efetuar suas compras por meio de Boleto Bancário, Cartão de Crédito, Paypal, PicPay, Nubank e Pix.
+                            <p></p>
+                            Aceitamos os cartões de crédito: Visa e MasterCard
+                            <p></p>
+                            Informamos que, para sua comodidade e segurança, as informações inseridas estão sujeitas á confirmação após qualquer compra realizada. Caso haja qualquer divergência dos dados, pode acarretar no atraso da entrega do seu pedido, e você será informado através do seu e-mail cadastrado.
+                            <p></p>
+                            O débito do valor do pedido será feito no cartão no dia do vencimento de sua fatura.
+                            <p></p>
+                            Para parcelamento <b>SEM JUROS</b> com cartão de crédito, segue as regras com o minimo de compras abaixo:
+                            <p></p>
+                            - Parcelamento sem juros em até 2x nas compras acima de R$ 50,00 (parcela miníma de R$ 25,00).
+                            <p></p>
+                            - Parcelamento sem juros em até 3x nas compras acima de R$ 99,00 (parcela miníma de R$ 33,00).
+                            <p></p>
+                            - Parcelamento sem juros em até 4x nas compras acima de R$ 200,00 (parcela miníma de R$ 50,00).
+                            <p></p>
+                            - Parcelamento sem juros em até 5x nas compras acima de R$ 250,00 (parcela miníma de R$ 50,00).
+                            <p></p>
+                            - Parcelamento sem juros em até 6x nas compras acima de R$ 300,00 (parcela miníma de R$ 50,00).
+                            <p></p>
+                            Para parcelamento COM JUROS com cartão de crédito, segue as regras com o minimo de compras abaixo:
+                            <p></p>
+                            - Parcelamento com juros em até 12x nas compras acima de R$ 50,00 com parcela miníma de R$ 25,00. A taxa de Juros é de 1,99% a.m (ao mês)
+                            <p></p>
+                            A confirmação do pagamento poderá ocorrer em até 24 horas após o pedido finalizado. Lembre-se que para as compras via cartão de crédito é necessário ter limite disponível no cartão.
+                            <p></p>
+                            Atenção: ao optar por esta forma de pagamento o pedido ficará sujeito a uma análise de risco, pelo nosso sistema e operadores, podendo ocorrer o contato via telefone para confirmação de dados. Após esse procedimento o pedido pode ser liberado ou não, independentemente da aprovação da administradora de cartões. Este procedimento é realizado para gerar maior segurança em suas compras e evitar fraudes.
+                            <p></p>
+                            <b>Boleto Bancário</b>
+                            <p></p>
+                            Para pedidos feitos por boleto o pagamento deverá ser efetuado em uma única parcela no valor total da sua compra (à vista).
+                            <p></p>
+                            Após escolher a opção de pagamento via boleto bancário, imprima o Boleto que será apresentado após a confirmação de seu pedido. Você poderá efetuar o pagamento em qualquer agência bancária, pela internet ou Lotéricas.
+                            <p></p>
+                            Caso o cliente não consiga visualizar o boleto, basta fazer o login de cadastro, acessar o link ?meus pedidos? e imprimir a 2ª via do boleto.
+                            <p></p>
+                            O boleto bancário tem validade de 1 dia para pagamento. Caso não haja o pagamento neste período, entre em contato para solicitar uma conta bancária para depósito ou solicitar o cancelamento do mesmo e efetuar um novo pedido.
+                            <p></p>
+                            O prazo de entrega do pedido via boleto bancário, inicia-se após a confirmação do pagamento pela instituição financeira, que pode ocorrer em até 3 dias úteis.
+                            <p></p>
+                            <b>Atenção: NÃO ENVIAMOS O BOLETO PARA SUA RESIDÊNCIA PELOS CORREIOS.</b>
+                            <p></p>
+                            <b>PAYPAL, PICPAY, NUBANK OU PIX</b>
+                            <p></p>
+                            Estes facilitadores de pagamento são uma solução completa para pagamentos online, que garante a segurança de quem compra na web.
+                            <p></p>
+                            As compras podem ser realizadas com pagamento em até 18x no cartão (com juros de 2,99% ao mês), ou pagamento através de débito ou boleto bancário.
+                            <p></p>
+                            A confirmação de pagamento dos pedidos serão enviadas por e-mail.
+                            <p></p>
+                            Atenciosamente,
+                            <p></p>
+                            <b>Equipe Agulha Mágica - Artesanatos.</b>     
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </div>
+        <!-- Conteudo Final -->
+
+        <!-- Rodape Incio -->
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h2>Atendimento</h2>
+                            <div class="contact-info">
+                                <p><i class="fa fa-envelope"></i>agulhamagica@gmail.com</p>
+                                <p><i class="fa fa-phone"></i>(61)00000-0000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h2>Redes Sociais</h2>
+                            <div class="contact-info">
+                                <div class="social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                    <a href=""><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h2>Sobre</h2>
+                            <ul>
+                                <li><a href="quemsomos.jsp">Quem somos</a></li>
+                                <li><a href="politica_privacidade.jsp">Política de Privacidade</a></li>
+                                <li><a href="termos_condicoes.jsp">Termos & Condições</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h2>Informações de compra</h2>
+                            <ul>
+                                <li><a href="politica_pagamento.jsp">Política de pagamento</a></li>
+                                <li><a href="politica_envio.jsp">Política de envio</a></li>
+                                <li><a href="politica_devolucao.jsp">Política de devolução</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row payment align-items-center">
+                    <div class="col-md-6">
+                        <div class="payment-method">
+                            <h2>Não aceitamos:</h2>
+                            <img src="img/pagamento.png" alt="Payment Method" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Rodape Final -->
+
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        <jsp:include page="bibliotecas_rodape.jsp"/>
+    </body>
+</html>

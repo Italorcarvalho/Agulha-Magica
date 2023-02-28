@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Agulha Mágica | Artesanatos</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="agulha magica, agulha magica loja, loja online, loja de artesanatos, agulha magica alguem ja comprou, agulha magica é boa, agulha magica é seguro, agulha magica é confiavel, agulhamagica.com.br, www.agulhamagica.com.br, artesanatos, loja on-line" name="keywords">
+        <meta content="Encontre aqui os melhores produtos artesanais" name="description">
+        <meta name="language" content="pt-br" />
+        <meta name="author" content="Agulha Mágica | Artesanatos" />
+
+
+        <!-- Google Fontes -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap" rel="stylesheet">
+
+        <!-- CSS Livrarias -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+        <!-- Templates -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Barra Superior Inicio -->
+        <jsp:include page="barra_superior.jsp"/>
+        <!-- Barra Superior Final -->    
+
+        <!-- Conteudo Inicio -->
+        <div class="contact">
+            <div class="container-fluid">
+                <div class="row">      
+                    <div class="col-lg-12">
+                        <div class="contact-info">
+                            <h2>Termos & Condições </h2>
+                            <br>
+                            <b>1. Produtos e Preços:</b> As ofertas oferecidas na Agulha Mágica - Artesanatos estão limitadas ao estoque existente. A Agulha Mágica - Artesanatos reserva-se o direito de alterar as condições de comercialização dos produtos apresentados. A Agulha Mágica - Artesanatos faz todos os esforços para que a informação apresentada em nossa loja virtual esteja isenta de erros tipográficos e, sempre que estes ocorram e sejam detectados, procederá, logo que possível, à sua correção. A Agulha Mágica - Artesanatos não pode ser responsabilizada no caso de se verificarem erros nos valores e/ou características dos produtos, quando estes decorrerem de problemas técnicos alheios à sua vontade. Os preços e especificações dos produtos contidos em nosso site estão sujeitos à alteração sem aviso prévio.
+                            <p></p>
+                            <b>2. Campanhas e Promoções:</b> A Agulha Mágica - Artesanatos dispõe dos seguintes descontos e promoções:
+                            <p></p>
+                            2.1 Frete grátis e desconto nos produtos: Campanhas especificas que ficam estabelecidas diretamente nos produtos e ou paginas de vitrine do site,conforme os produtos são adicionada nos carrinho de compras os descontos nos produtos ou frete são calculados automaticamente.
+                            <p></p>
+                            2.2.Brindes e Sorteios: Todos os brindes referentes às compras ou produtos sorteados pela Agulha Mágica - Artesanatos, não são passíveis de troca por produtos e ou valor monetário. Somente são permitidas devoluções e trocas por defeito de fabricação. Agulha Mágica - Artesanatos, reserva-se ao direito de não permitir campanhas de desconto cumulativas.
+                            <p></p>
+                            <b>3. Entrega dos Pedidos:</b> Só serão aceites pedidos cujas entregas sejam efetuadas em território nacional. Agulha Mágica - Artesanatos é uma loja Eletrônica, trabalhamos com vendas online e por telefone. Por isso, não fazemos entrega com retirada. Nós utilizamos dos Correios como principais transportadoras para nossas mercadorias. Temos as seguintes formas de envio:
+                            <p></p>
+                            <b>- PAC -</b> serviço de encomenda da linha econômica para o envio exclusivo de mercadoria. São efetuadas 3 tentativas de entrega, sendo a primeira no mesmo dia da chegada do objeto na unidade de distribuição. A segunda e a terceira tentativa serão realizadas nos dias úteis imediatamente subsequentes. Caso as 3 tentativas de entrega domiciliar sejam frustradas, o objeto ficará disponível para entrega na agência mais próxima do endereço do destinatário, pelo prazo de 7 dias corridos. Após esse prazo o objeto será devolvido ao remetente.
+                            <p></p>
+                            <b>- E-SEDEX -</b> Esta é a versão do SEDEX para compras Online. Com mesmo prazo de entrega do SEDEX, são efetuados 2 tentativas de entrega. Primeira Tentativa: até às 18:00h do dia seguinte ao da postagem nas remessas entre capitais e principais cidades do interior do país. Segunda Tentativa: até às 12:00h do dia seguinte ao da primeira tentativa de entrega. Nas cidades de São Paulo, Rio de Janeiro, Belo Horizonte, Curitiba, Porto Alegre, Brasília, Goiânia, Salvador, Recife, Fortaleza, Campinas, Ribeirão Preto, Santos, Sorocaba e São José dos Campos, a 2ª tentativa ocorrerá entre 18:00 e 21:00 h do mesmo dia da 1ª tentativa (somente de segunda a sexta-feira). Após a segunda tentativa de entrega, o remetente será comunicado para definição quanto à necessidade de uma nova tentativa ou devolução imediata.
+                            <p></p>
+                            <b>4. Formas de Pagamento:</b> O Cliente tem à sua disposição as seguintes formas de pagamento:
+                            <p></p>
+                            - Cartão de Crédito Mastercard
+                            - Cartão de Crédito Visa
+                            - Paypal
+                            - Nubank
+                            <p></p>
+                            - Picpay**
+                            - Pix**
+                            - Boleto Eletrônico**
+                            - Depósito Bancário Eletrônico**
+                            <p></p>
+                            <b>** Não é permito o parcelamento, apenas pagamento à vista.</b>
+                            <p></p>
+                            <b>5. Cancelamento de Pedido</b>
+                            <p></p>
+                            5.1 . A pedido do Cliente: Para o efeito, o Cliente deverá entrar em contato como nosso Serviço de SAC, através do email: agulhamagica@gmail.com ou whatsapp (61)991036027 nos dias úteis, das 09h às 13h e das 14h às 18h, e indicar os seguintes dados Número do pedido, Nome completo do cliente, Data da compra, CPF do cliente, entre outros dados.
+                            <p></p>
+                            5.2 . Por decisão a Agulha Mágica - Artesanatos possui o direito de não processar pedidos, quando verificar alguma divergência nos dados pessoais apresentados ou observar má conduta por parte do comprador.A Agulha Mágica - Artesanatos reserva-se o direito de não efetuar de qualquer pedido ou reembolso, no caso de se verificar erros nos valores e/ou características dos produtos, quando estes decorrerem de problemas técnicos alheios.Sempre que se verifiquem os pressupostos citados nos pontos anteriores, o Cliente será devidamente informado da decisão da Agulha Mágica - Artesanatos em não processar o seu pedido.
+                            <p></p>
+                            <b>6. Devoluções</b>
+                            <p></p>
+                            6.1. Devoluções após o recebimento: O cliente deverá consultar o nosso Departamento SAC em até 7 dias a contar da data de recepção do produto pelo telefone (61) 991036027 ou pelo e-mail agulhamagica@gmail.com a contar do recebimento da mercadoria, confirmado pelo canhoto dos Correios assinado pelo cliente ou responsável no recebimento da entrega. O produto deverá ser encaminhado pelo cliente (que pagará o frete) na embalagem original, sem indícios de uso, sem violação do lacre original.
+                            <p></p>
+                            6.2. Recusa do pedido na entrega: Caso o cliente recuse a entrega de um pedido no ato do recebimento sem aviso prévio e/ou sem motivos autorizados pela nossa equipe, poderá ser ressarcido sobre o valor do pedido, mas o valor do frete não será reembolsado. Para reembolso do valor total, entre em contato com nossos atendentes para verificar possibilidades de reembolso, como estornos e depósitos em banco. Neste caso, a embalagem deve estar lacrada e sem indícios de uso.
+                            <p></p>
+                            <b>7. Garantia dos Produtos</b>
+                            <p></p>
+                            Os nossos produtos possuem garantias variadas de acordo com o fabricante. Quando não estiver especificado na descrição do produto, os defeitos de fabricação têm 10 dias de garantia a partir da data da entrega. Fazemos total suporte e troca para produtos danificados, desde que seja comprovado que não foi mau uso do cliente. A garantia das mercadorias cobre despesas de transporte, devendo o frete de remessa e retorno ser pago pela Agulha Mágica - Artesanatos. Dessa forma, esclarecemos que não aceitaremos mercadorias para conserto, devolução de venda ou retorno de demonstração, enviadas para a Agulha Mágica - Artesanatos com frete a pagar.
+                            <p></p>
+                            Atenciosamente,
+                            <p></p>
+                            <b>Equipe Agulha Mágica - Artesanatos.</b>                        
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </div>
+        <!-- Conteudo Final -->
+
+        <!-- Rodape Inicio -->
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h2>Atendimento</h2>
+                            <div class="contact-info">
+                                <p><i class="fa fa-envelope"></i>agulhamagica@gmail.com</p>
+                                <p><i class="fa fa-phone"></i>(61)00000-0000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h2>Redes Sociais</h2>
+                            <div class="contact-info">
+                                <div class="social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                    <a href=""><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h2>Sobre</h2>
+                            <ul>
+                                <li><a href="quemsomos.jsp">Quem somos</a></li>
+                                <li><a href="politica_privacidade.jsp">Política de Privacidade</a></li>
+                                <li><a href="termos_condicoes.jsp">Termos & Condições</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h2>Informações de compra</h2>
+                            <ul>
+                                <li><a href="politica_pagamento.jsp">Política de pagamento</a></li>
+                                <li><a href="politica_envio.jsp">Política de envio</a></li>
+                                <li><a href="politica_devolucao.jsp">Política de devolução</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row payment align-items-center">
+                    <div class="col-md-6">
+                        <div class="payment-method">
+                            <h2>Não aceitamos:</h2>
+                            <img src="img/pagamento.png" alt="Payment Method" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Rodape Final -->
+
+        <!-- Voltar ao Topo -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>

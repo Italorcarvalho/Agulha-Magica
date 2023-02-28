@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Agulha Mágica | Artesanatos</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="agulha magica, agulha magica loja, loja online, loja de artesanatos, agulha magica alguem ja comprou, agulha magica é boa, agulha magica é seguro, agulha magica é confiavel, agulhamagica.com.br, www.agulhamagica.com.br, artesanatos, loja on-line" name="keywords">
+        <meta content="Encontre aqui os melhores produtos artesanais" name="description">
+        <meta name="language" content="pt-br" />
+        <meta name="author" content="Agulha Mágica | Artesanatos" />
+
+
+        <!-- Google Fontes -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap" rel="stylesheet">
+
+        <!-- CSS Livrarias -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+        <!-- Templates -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Barra Superior Inicio -->
+        <jsp:include page="barra_superior.jsp"/>
+        <!-- Barra Superior Final -->    
+
+        <!-- Conteudo Inicio -->
+        <div class="contact">
+            <div class="container-fluid">
+                <div class="row">      
+                    <div class="col-lg-12">
+                        <div class="contact-info">
+                            <h2>Quem somos ?</h2>
+                            <br>
+                            A  Agulha Mágica - Artesanatos é a mais completa loja online de artesanato do Brasil. Nasceu em 2021 produzindo de forma artesanal os produtos mais criativos. 
+                            <p></p>
+                            A  Agulha Mágica - Artesanatos oferece uma infinita variedade de produtos artesanais. Para todos os clientes, são oferecidos os melhores lançamentos, coleções e produtos exclusivos, que só podem ser encontrados em nosso site. O sortimento inclui Bolsas e Carteiras, Decorações, Acessorios, Lembrancinhas, Bijuterias, produtos em Crochê e Roupas personalizadas do seu modo. Trabalhamos para ajudar nossos clientes a soltarem a criatividade e ter acesso a todos os produtos para tornar esses sonhos possíveis. Por isso, sempre que houver dúvidas, não hesite em nos contatar, teremos prazer em ajudá-los.
+                            <p></p>
+                            Todos nossos produtos são da melhor qualidade para que você fique satisfeito (a) com a compra e ainda contribui com o meio Ambiente. 
+                            <p></p>
+                            A satisfação do cliente é nosso maior objetivo, procurando garantir, qualidade dos produtos, entrega rápida, troca em até 30 dias, preços competitivos e ótimo atendimento. Adotando uma política empresarial séria e criativa. Tudo isso somado fazem com que o cliente tenha confiança, respeito e a tranquilidade quando adquire nossos produtos.
+                            <p></p>
+                            Atenciosamente,
+                            <p></p>
+                            <b>Equipe Agulha Mágica - Artesanatos.</b>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </div>
+        <!-- Conteudo Final -->
+
+        <!-- Rodape Inicio -->
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h2>Atendimento</h2>
+                            <div class="contact-info">
+                                <p><i class="fa fa-envelope"></i>agulhamagica@gmail.com</p>
+                                <p><i class="fa fa-phone"></i>(61)00000-0000</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h2>Redes Sociais</h2>
+                            <div class="contact-info">
+                                <div class="social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                    <a href=""><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h2>Sobre</h2>
+                            <ul>
+                                <li><a href="quemsomos.jsp">Quem somos</a></li>
+                                <li><a href="politica_privacidade.jsp">Política de Privacidade</a></li>
+                                <li><a href="termos_condicoes.jsp">Termos & Condições</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h2>Informações de compra</h2>
+                            <ul>
+                                <li><a href="politica_pagamento.jsp">Política de pagamento</a></li>
+                                <li><a href="politica_envio.jsp">Política de envio</a></li>
+                                <li><a href="politica_devolucao.jsp">Política de devolução</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row payment align-items-center">
+                    <div class="col-md-6">
+                        <div class="payment-method">
+                            <h2>Não aceitamos:</h2>
+                            <img src="img/pagamento.png" alt="Payment Method" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Rodape Final -->
+
+        <!-- Voltar ao Topo -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>

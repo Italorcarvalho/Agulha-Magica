@@ -1,0 +1,27 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%-- 
+    Document   : lista_carrinho
+    Author     : Italo
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
+<c:forEach var = "item" items = "${carrinho}">
+    <tr>
+        <td>
+            <div class="img">
+                <a href="#"><img src="${item.produto.img}" alt="Image"></a>
+                <p>${item.produto.nome}</p>
+            </div>
+        </td>
+        <td>R$ ${item.produto.preco}</td>
+        <td>
+            <div class="qty">
+                <button class="btn-minus"><i class="fa fa-minus"></i></button>
+                <input type="text" value="${item.qnt}">
+                <button class="btn-plus"><i class="fa fa-plus"></i></button>
+            </div>
+        </td>    
+        <td><a class="btn" href="remover.carrinho?id=${item.id}"><i class="fa fa-trash"></i></a></td>
+    </tr> 
+</c:forEach>

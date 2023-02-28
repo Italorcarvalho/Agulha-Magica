@@ -1,0 +1,291 @@
+<%-- 
+    Document   : cadastramento
+    Created on : 04/09/2022, 01:14:06
+    Author     : Italo
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Agulha Mágica | Artesanatos</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="agulha magica, agulha magica loja, loja online, loja de artesanatos, agulha magica alguem ja comprou, agulha magica é boa, agulha magica é seguro, agulha magica é confiavel, agulhamagica.com.br, www.agulhamagica.com.br, artesanatos, loja on-line" name="keywords">
+        <meta content="Encontre aqui os melhores produtos artesanais" name="description">
+        <meta name="language" content="pt-br" />
+        <meta name="author" content="Agulha Mágica | Artesanatos" />
+
+        <!-- Google Fontes -->
+        <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+        <!-- CSS Livrarias -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+        <!-- Templates -->
+        <link href="css/style.css" rel="stylesheet">
+        
+         <!-- FavIcon -->
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+        <style>
+            display-flex, .display-flex, .display-flex-center, .signup-content {
+                display: flex;
+                display: -webkit-flex; 
+            }
+
+            .main {
+                background: #f8f8f8;
+                padding: 0px 0; 
+            }
+
+            .container {
+                width: 900px;
+                background: #f8f8f8;
+                margin: 0 auto;
+                padding: 0px;
+                box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+                -moz-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+                -webkit-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+                -o-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+                -ms-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+                border-radius: 20px;
+                -moz-border-radius: 20px;
+                -webkit-border-radius: 20px;
+                -o-border-radius: 20px;
+                -ms-border-radius: 20px; }
+
+            .signup-content {
+                padding: 14px 0;
+                height: 652px;
+                box-shadow: 0 5px 5px;
+                border-radius: 50px 10px 50px 10px;
+                background: #ffffff;
+                margin-top:1px;
+                
+            }
+
+
+            .signup-form, .signup-image {
+                width: 50%;
+                overflow: hidden; 
+            }
+
+
+            .form-title {
+                margin-bottom: 5px;
+                text-align: center;
+            }
+
+            .signup-image {
+                margin-top: 72px; 
+            }
+
+            @media screen and (max-width: 1200px) {
+                .container {
+                    width: calc( 100% - 30px);
+                    max-width: 100%; } }
+            @media screen and (min-width: 1024px) {
+                .container {
+                    max-width: 1200px; } }
+            @media screen and (max-width: 768px) {
+                .signup-content {
+                    flex-direction: column;
+                    -moz-flex-direction: column;
+                    -webkit-flex-direction: column;
+                    -o-flex-direction: column;
+                    -ms-flex-direction: column;
+                    justify-content: center;
+                    -moz-justify-content: center;
+                    -webkit-justify-content: center;
+                    -o-justify-content: center;
+                    -ms-justify-content: center; }
+
+                .signup-form {
+                    margin-left: 0px;
+                    margin-right: 0px;
+                    padding-left: 0px;
+
+                    padding: 0 30px; }
+
+
+
+                .signup-form {
+                    width: auto; }
+
+
+
+                .form-button {
+                    text-align: center; }
+
+
+
+                .form-title {
+                    text-align: center; } }
+            @media screen and (max-width: 400px) {
+            }
+
+            .signup-form {
+                margin-left: 75px;
+                margin-right: 75px;
+                padding-left: 34px; 
+            }
+
+            .register-form {
+                width: 100%; 
+            }
+
+            figure {
+                margin-bottom: 50px;
+                text-align: center; 
+            }
+
+            .signup-image-link {
+                font-size: 17px;
+                color: #FF6F61;
+                display: block;
+                text-align: center; 
+            }
+
+
+
+            img {
+                max-width: 100%;
+                height: auto; 
+                padding-right: 15px;     
+            }
+           
+
+            figure {
+                margin: 0; 
+
+            }
+
+            body .body {
+                font-size: 13px;
+                line-height: 1.8;
+                color: #353535;
+                background: #f8f8f8;
+                font-weight: 400;
+                font-family: Poppins; 
+            }
+            .register-form > .form-group > .input-group > .form-control {
+                height: 36px ;
+
+            }
+            .mb-2rem {
+                margin-bottom: 2rem;
+            }
+            .corform {
+                background-color: white;
+                color: #FF6F61;
+            }
+        </style>
+
+    </head>
+    <body class="body">
+
+        <div class="main">
+            <!-- Sign up form -->
+            <section class="signup">
+                <div class="container">
+                    <div class="signup-content">
+                        <div class="signup-form">
+                            <h2 class="form-title">Cadastrar conta</h2>
+                            <form method="POST" class="register-form" id="register-form" action="novo.usuario">
+                                <div class="form-group">
+                                    <label class="sr-only" for="name">Nome</label>
+                                    <div class="input-group mb-2rem">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text corform"><i class="zmdi zmdi-account material-icons-name"></i></div>
+                                        </div>
+                                        <input class="form-control" type="text" id="nome" name="nome" placeholder="Nome" >
+                                    </div>                                                      
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only" for="cpf">CPF</label>
+                                    <div class="input-group mb-2rem">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text corform"><i class="zmdi zmdi-balance-wallet"></i></div>
+                                        </div>
+                                        <input type="text" class="form-control" id="cpf" name="cpf" placeholder="CPF"  maxlength="14">
+                                    </div>                                                              
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only" for="calendar">Data de nascimento</label>
+                                    <div class="input-group mb-2rem">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text corform"><i class="zmdi zmdi-cake"></i></div>
+                                        </div>
+                                        <input class="form-control" type="text" id="nascimento" name="nascimento" placeholder="Data de nascimento" maxlength="8" >
+                                    </div>      
+                                </div>
+                                <div class="form-group">                                   
+                                    <div class="form-check form-check-inline"> 
+                                        <div class="input-group-text mr-2 corform"><i class="zmdi zmdi-male-female"></i></div>
+                                        <input class="form-check-input" type="radio" id="masculino" name="sexo" value="0" style="accent-color: #FF6F61;">
+                                        <label class="form-check-label" for="male">Masculino</label>                                        
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="feminino" name="sexo" value="1" style="accent-color: #FF6F61;">
+                                        <label class="form-check-label" for="female">Feminino</label>                                   
+                                    </div>
+                                </div><br>
+                                <div class="form-group">
+                                    <label class="sr-only" for="email">E-mail</label>
+                                    <div class="input-group mb-2rem">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text corform"><i class="zmdi zmdi-email"></i></div>
+                                        </div>
+                                        <input class="form-control" type="email" id="email" name="email" placeholder="E-mail" >
+                                    </div>                                                                      
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only" for="phone">Telefone</label>
+                                    <div class="input-group mb-2rem">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text corform"><i class="zmdi zmdi-phone"></i></div>
+                                        </div>
+                                       <input type="text" class="form-control" id="telefone" name="telefone" placeholder="Telefone"  maxlength="14" >
+                                    </div>                                                                       
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only" for="password">Senha</label>
+                                    <div class="input-group mb-2rem">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text corform"><i class="zmdi zmdi-lock"></i></div>
+                                        </div>
+                                        <input class="form-control" type="password" id="senha" name="senha" placeholder="Senha" >
+                                    </div>                                                                       
+                                </div>
+
+                                <div class="form-group form-button">
+                                    <button  class="btn" style="width: 100%;" >Cadastrar</button>
+                                </div>
+                            </form>                           
+                        </div>
+                        <div class="signup-image">
+                            <figure><img src="img/capacadastro.jpg" alt="sing up image"></figure>
+                            <a href="login.jsp" class="signup-image-link">Eu já possuo conta</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <jsp:include page="bibliotecas_rodape.jsp"/>
+        
+        <script>
+
+            $(document).ready(function () {
+                $('#cpf').mask('000.000.000-00', {reverse: true});
+                $('#telefone').mask('(00) 0000-0000');
+                $('#nascimento').mask('00/00/0000');
+
+            });
+        </script>
+    </body>
+</html>

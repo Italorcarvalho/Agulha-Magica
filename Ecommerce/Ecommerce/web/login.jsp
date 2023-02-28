@@ -1,0 +1,195 @@
+<%-- 
+    Document   : logar
+    Created on : 04/09/2022, 00:32:09
+    Author     : Italo
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Agulha Mágica | Artesanatos</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="agulha magica, agulha magica loja, loja online, loja de artesanatos, agulha magica alguem ja comprou, agulha magica é boa, agulha magica é seguro, agulha magica é confiavel, agulhamagica.com.br, www.agulhamagica.com.br, artesanatos, loja on-line" name="keywords">
+        <meta content="Encontre aqui os melhores produtos artesanais" name="description">
+        <meta name="language" content="pt-br" />
+        <meta name="author" content="Agulha Mágica | Artesanatos" />
+
+        <!-- Google Fontes -->
+
+        <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+        <!-- CSS Livrarias -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+        <!-- Templates -->
+        <link href="css/style.css" rel="stylesheet">
+        <!--<link href="css/styles.css" rel="stylesheet">-->
+
+        <!-- FavIcon -->
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+        <style>
+            display-flex, .display-flex, .display-flex-center, .signin-content {
+                display: flex;
+                display: -webkit-flex; }
+
+            .main {
+                background: #f8f8f8;
+                padding: 0px 0; }
+
+
+            .signin-form, .signin-image {
+                width: 50%;
+                overflow: hidden; }
+
+            #signin {
+                margin-top: 16px; }
+
+            .signin-content {
+                padding-top: 101px;
+                padding-bottom: 101px;
+                box-shadow: 0 5px 5px;
+                border-radius: 50px 10px 50px 10px;
+                background: white;
+                margin-top:1px;
+            }
+
+            .form-title {
+                margin-bottom: 35px;
+                margin-left: 14px;
+            }
+
+            .signin-form {
+                margin-right: 90px;
+                margin-left: 80px; }
+
+            .signin-image {
+                margin-left: 110px;
+                margin-right: 20px;
+                margin-top: 10px;
+
+            }
+
+            @media screen and (max-width: 1200px) {
+                .container {
+                    width: calc( 100% - 30px);
+                    max-width: 100%; } }
+            @media screen and (min-width: 1024px) {
+                .container {
+                    max-width: 930px; } }
+            @media screen and (max-width: 768px) {
+                .signin-content {
+                    flex-direction: column;
+                    -moz-flex-direction: column;
+                    -webkit-flex-direction: column;
+                    -o-flex-direction: column;
+                    -ms-flex-direction: column;
+                    justify-content: center;
+                    -moz-justify-content: center;
+                    -webkit-justify-content: center;
+                    -o-justify-content: center;
+                    -ms-justify-content: center; }
+
+
+                .signin-image {
+                    margin-left: 0px;
+                    margin-right: 0px;
+                    margin-top: 50px;
+                    order: 2;
+                    -moz-order: 2;
+                    -webkit-order: 2;
+                    -o-order: 2;
+                    -ms-order: 2; }
+
+                .signin-form, .signin-image {
+                    width: auto; }
+
+
+
+                .form-button {
+                    text-align: center; }
+
+                .signin-form {
+                    order: 1;
+                    -moz-order: 1;
+                    -webkit-order: 1;
+                    -o-order: 1;
+                    -ms-order: 1;
+                    margin-right: 0px;
+                    margin-left: 0px;
+                    padding: 0 30px; }
+
+                .form-title {
+                    text-align: center; } }
+
+            .corform {
+                background-color: white;
+                color: #FF6F61;
+            }
+            .form-group {
+                margin-bottom: 2rem;
+            }
+
+            .register-form {
+                padding: 15px;
+                background: #ffffff;
+                margin-bottom: 30px;
+            }
+
+        </style>
+
+    </head>    
+    <body>
+        <div class="main">         
+            <!-- Sign up form -->
+            <section class="sign-in">               
+                <div class="container">
+                    <div class="signin-content">
+                        <div class="signin-image">
+                            <a href="index.jsp">
+                                <figure><img src="img/capalogar.png" alt="sing up image"></figure>
+                            </a>
+                            <center>
+                                <span class="txt1">Ainda não tem conta? </span>
+                                <a class="txt2" href="cadastro.jsp" >Cadastre-se</a>
+                            </center>
+                        </div>
+                        <div class="signin-form">
+                            <h2 class="form-title">Logar conta</h2>
+
+                            <form method="POST" action="login" class="register-form" id="login-form">
+                                <div class="form-group">
+                                    <label class="sr-only" for="email">E-mail</label>
+                                    <div class="input-group ">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text corform"><i class="zmdi zmdi-email"></i></div>
+                                        </div>
+                                        <input type="text" class="form-control" name="email" id="usuario" required="" placeholder="E-mail" />
+                                    </div>                                                                      
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only" for="password">Senha</label>
+                                    <div class="input-group ">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text corform"><i class="zmdi zmdi-lock"></i></div>
+                                        </div>
+                                        <input type="password" class="form-control" name="senha" id="senha" required="" placeholder="Senha"/>
+                                    </div>                                                                       
+                                </div>
+                                <div class="form-group form-button">
+                                    <input class="form-submit form-submit btn btn-light" name="logar" value="Entrar" type="submit" style="width: 100%;" />
+                                </div>                               
+                            </form>                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <jsp:include page="bibliotecas_rodape.jsp"/>
+    </body>
+</html>

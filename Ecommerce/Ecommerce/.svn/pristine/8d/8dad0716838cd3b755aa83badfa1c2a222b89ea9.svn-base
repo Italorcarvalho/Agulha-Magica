@@ -1,0 +1,132 @@
+<%-- 
+    Document   : cadastro
+    Author     : Italo
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Agulha Mágica | Artesanatos</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="agulha magica, agulha magica loja, loja online, loja de artesanatos, agulha magica alguem ja comprou, agulha magica é boa, agulha magica é seguro, agulha magica é confiavel, agulhamagica.com.br, www.agulhamagica.com.br, artesanatos, loja on-line" name="keywords">
+        <meta content="Encontre aqui os melhores produtos artesanais" name="description">
+        <meta name="language" content="pt-br" />
+        <meta name="author" content="Agulha Mágica | Artesanatos" />
+
+        <!-- Google Fontes -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap" rel="stylesheet">
+
+        <!-- CSS Livrarias -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+        <!-- Templates -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+       <!-- Barra Superior Inicio -->
+        <div class="bottom-bar" style="background: #F3F6FF">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                    </div>
+                    <div class="col-md-4">
+                        <div class="logo">
+                            <a href="index.jsp">
+                                <img src="img/logo2.png" alt="Logo">
+                            </a>
+                        </div>
+                    </div>                                    				
+                </div>				
+            </div>
+        </div>
+        <!-- Barra Superior Final --> 
+
+        <!-- Formulario de Cadastro Inicio -->
+        <div class="container-register">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-16">
+                        <br>
+                        <center> 
+                            <h4 class="display-8" style ="font-family:Times New Roman;">CRIE SUA CONTA</h4>
+                        </center>
+                        <div class="register-form">
+                            <form action="novo.usuario" method="POST">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Nome Completo:</label>
+                                        <input class="form-control" type="text" id="nome" name="nome" >
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>CPF:</label>
+                                        <input type="text" class="form-control" id="cpf" name="cpf" placeholder="Ex.: 000.000.000-00"  maxlength="14">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Data de nascimento:</label>
+                                        <input class="form-control" type="text" id="nascimento" name="nascimento" placeholder="Ex.: 00/00/0000" maxlength="8" >
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Sexo:</label><br>
+                                        <input type="radio" id="masculino" name="sexo" value="0">
+                                        <label for="male">Masculino</label>
+                                        <input type="radio" id="feminino" name="sexo" value="1">
+                                        <label for="female">Feminino</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>E-mail:</label>
+                                        <input class="form-control" type="email" id="email" name="email" placeholder="exemplo@exemplo.com" >
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Telefone:</label>
+                                        <input type="text" class="form-control" id="telefone" name="telefone" placeholder="Ex.: (00)0000-0000"  maxlength="14" >
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Senha:</label>
+                                        <input class="form-control" type="password" id="senha" name="senha" >
+                                    </div>
+                                    <div class="col-md-6"></div>								
+                                    <div class="col-md-12">
+                                        <button class="btn">Cadastrar</button>
+                                       
+                                    </div>	
+                                </div>
+                            </form>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+        <!-- Formulario de Cadastro Final -->
+
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        <!-- JavaScript Livrarias -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+        <script src="js/jquery.mask.min.js"></script>
+        
+        <!-- Mascaras Formualario Inicio -->
+        <script>
+
+            $(document).ready(function () {
+                $('#cpf').mask('000.000.000-00', {reverse: true});
+                $('#telefone').mask('(00) 0000-0000');
+                $('#nascimento').mask('00/00/0000');
+
+            });
+        </script>
+        <!-- Mascaras Formualario Final -->
+        
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>

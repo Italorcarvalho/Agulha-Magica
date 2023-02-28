@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Agulha Mágica | Artesanatos</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="agulha magica, agulha magica loja, loja online, loja de artesanatos, agulha magica alguem ja comprou, agulha magica Ã© boa, agulha magica Ã© seguro, agulha magica Ã© confiavel, agulhamagica.com.br, www.agulhamagica.com.br, artesanatos, loja on-line" name="keywords">
+        <meta content="Encontre aqui os melhores produtos artesanais" name="description">
+        <meta name="language" content="pt-br" />
+        <meta name="author" content="Agulha MÃ¡gica | Artesanatos" />
+
+
+        <!-- Google Fontes -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap" rel="stylesheet">
+
+        <!-- CSS Livrarias -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+        <!-- Templates -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Barra Superior Inicio -->
+       <div class="bottom-bar">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-3">
+                        <div class="logo">
+                            <a href="index.jsp">
+                                <img src="img/logo.png" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="search">
+                            <input type="text" placeholder="Buscar produtos">
+                            <button><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <center>
+                            <div class="user">
+                                <a href="listadesejos.jsp" class="btn wishlist">
+                                    <i class="fa fa-heart"></i>
+                                    <span>(5)</span>
+                                </a>
+                                <a href="carrinho.jsp" class="btn cart" >
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <span>(5)</span>
+                                </a>	
+                            </div>
+                        </center>
+                    </div>                  
+                    <div class="col-md-1">   
+                        <a href="login.html" style="margin-right: 6px;" type="button" class="btn btn-light">Entrar</a>				                                                    
+                    </div>
+                    <div class="col-md-1"> 
+                        <a href="cadastro.html" type="button" class="btn btn-light">Cadastro</a>
+                    </div>					 
+                </div>				
+            </div>
+        </div>
+        <!-- Barra Superior Final -->  
+
+
+
+        <main class="mt-5 pt-4">
+            <div class="container wow fadeIn">
+                <div class="row">										
+                    <div class="col-md-8 mb-4">						
+                        <div class="card">						
+                            <form class="card-body">
+                                <h5><b>Endereço de envio</b></h5>
+                                <br>
+                                <div class="md-form mb-5">
+                                    <label for="nome" class="">Nome</label>
+                                    <input type="text" id="nome" class="form-control">									
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-2 col-md-6 mb-4">
+                                        <label for="cep">CEP</label>
+                                        <input type="text" class="form-control" id="cep" >
+                                    </div>								
+                                    <div class="col-lg-8 col-md-6 mb-4">
+                                        <label for="endereco">Endereço</label>         
+                                        <input type="text" class="form-control" id="endereco" placeholder="" >
+                                    </div>	
+                                    <div class="col-lg-2 col-md-6 mb-4">
+                                        <label for="number">Numero</label>         
+                                        <input type="text" class="form-control" id="number" placeholder="" >
+                                    </div>																		
+                                </div>								
+                                <div class="row">
+
+                                    <div class="col-lg-3 col-md-6 mb-4">
+                                        <label for="complemento">Complemento</label>
+                                        <input type="text" class="form-control" id="complemento" >
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 mb-4">
+                                        <label for="bairro">Bairro</label>
+                                        <input type="text" class="form-control" id="Bairro" >
+                                    </div>								
+                                    <div class="col-lg-3 col-md-6 mb-4">
+                                        <label for="cidade">Cidade</label>         
+                                        <input type="text" class="form-control" id="cidade" placeholder="" >
+                                    </div>								
+                                    <div class="col-lg-3 col-md-6 mb-4">                 
+                                        <label for="inputEstado">Estado</label>
+                                        <select id="inputEstado" class="form-control">
+                                            <option selected>Acre</option>
+                                            <option selected>Alagoas</option>
+                                            <option selected>Amapá</option>
+                                            <option selected>Amazonas</option>
+                                            <option selected>Bahia</option>
+                                            <option selected>Ceará</option>
+                                            <option selected>Distrito Federal</option>
+                                            <option selected>Espírito Santo</option>
+                                            <option selected>Goiás</option>
+                                            <option selected>Maranhão</option>
+                                            <option selected>Mato Grosso</option>
+                                            <option selected>Mato Grosso do Sul</option>
+                                            <option selected>Minas Gerais</option>
+                                            <option selected>Pará</option>
+                                            <option selected>Paraíba</option>
+                                            <option selected>Paraná</option>
+                                            <option selected>Pernambuco</option>
+                                            <option selected>Piauí­</option>
+                                            <option selected>Rio de Janeiro</option>
+                                            <option selected>Rio Grande do Norte</option>
+                                            <option selected>Rio Grande do Sul</option>
+                                            <option selected>Rondônia</option>
+                                            <option selected>Roraima</option>
+                                            <option selected>Santa Catarina</option>
+                                            <option selected>São Paulo</option>
+                                            <option selected>Sergipe</option>
+                                            <option selected>Tocantins</option>      
+                                        </select>										
+                                    </div>									
+                                </div>
+
+                                <hr>
+                                <h5><b>Metodos de Pagamento</b></h5>
+                                <br>
+                                <div class="d-block my-3">
+                                    <div class="custom-control custom-radio">
+                                        <input id="credito" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+                                        <label class="custom-control-label" for="credito">Cartão de Crédito</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input id="boleto" name="paymentMethod" type="radio" class="custom-control-input" required>
+                                        <label class="custom-control-label" for="boleto">Boleto</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+                                        <label class="custom-control-label" for="paypal">Paypal</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input id="picpay" name="paymentMethod" type="radio" class="custom-control-input" required>
+                                        <label class="custom-control-label" for="picpay">PicPay</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input id="nubank" name="paymentMethod" type="radio" class="custom-control-input" required>
+                                        <label class="custom-control-label" for="nubank">Nubank</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input id="pix" name="paymentMethod" type="radio" class="custom-control-input" required>
+                                        <label class="custom-control-label" for="pix">Pix</label>
+                                    </div>			
+                                </div>
+
+                                <hr>
+                                <h5><b>Dados do cartão</b></h5>
+                                <br>
+
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="cc-number">Número do cartão</label>
+                                        <input type="text" class="form-control" id="cart-number" placeholder="0000-0000-0000-0000" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="cc-name">Nome do titular</label>
+                                        <input type="text" class="form-control" id="cart-name" placeholder="" required>                
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1">  
+                                        <label for="validade">Validade</label>
+                                    </div>
+                                    <div class="col-md-2">
+                                    </div>
+                                    <div class="col-md-1">  
+                                        <label for="ccv">CVV</label>
+                                    </div>
+                                    <div class="col-md-2">
+                                    </div>
+                                    <div class="col-md-3">  
+                                        <label for="ccv">CPF/CNPJ do titular</label>
+                                    </div>
+
+                                </div>										
+                                <div class="row">	  
+                                    <div class="col-md-1">                 
+                                        <div class="select" >
+                                            <select id="card-expiration-month">
+                                                <option></option>
+                                                <option>01</option>
+                                                <option>02</option>
+                                                <option>03</option>
+                                                <option>04</option>
+                                                <option>05</option>
+                                                <option>06</option>
+                                                <option>07</option>
+                                                <option>08</option>
+                                                <option>09</option>
+                                                <option>10</option>
+                                                <option>11</option>
+                                                <option>12</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-1">
+                                        <div class="select">
+                                            <select id="card-expiration-year">
+                                                <option></option>
+                                                <option>2016</option>
+                                                <option>2017</option>
+                                                <option>2018</option>
+                                                <option>2019</option>
+                                                <option>2020</option>
+                                                <option>2021</option>
+                                                <option>2022</option>
+                                                <option>2023</option>
+                                                <option>2024</option>
+                                                <option>2025</option>
+                                                <option>2026</option>
+                                                <option>2027</option>
+                                                <option>2028</option>
+                                                <option>2029</option>
+                                                <option>2030</option>
+                                            </select>
+                                        </div>
+                                    </div> 
+                                    <div class="col-md-1">
+                                    </div> 
+                                    <div class="col-md-3">									
+                                        <input type="password" class="form-control" id="cvv" placeholder="000" >
+                                    </div>
+
+                                    <div class="col-md-3">									
+                                        <input type="text" class="form-control" id="cpftitular" placeholder="000.000.000-00" >
+                                    </div>
+                                </div>																		
+                                <hr class="mb-4">
+                                <button class="btn btn-primary btn-lg btn-block" type="submit">Finalizar compra</button>										
+                            </form>										
+                        </div>										
+                    </div>										
+
+                    <div class="col-md-4 mb-4">																				
+                        <h4 class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="fa fa-shopping-cart"> Seu Carrinho</span>
+                            <span class="badge badge-dark badge-pill">5</span>
+                        </h4>
+
+
+                        <ul class="list-group mb-3 z-depth-1">
+                            <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                <div>
+                                    <h6 class="my-0">Nome do produto</h6>            
+                                </div>
+                                <span class="text-muted">R$ 99,90</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                <div>
+                                    <h6 class="my-0">Nome do produto</h6>               
+                                </div>
+                                <span class="text-muted">R$ 99,90</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                <div>
+                                    <h6 class="my-0">Nome do produto</h6>               
+                                </div>
+                                <span class="text-muted">R$ 99,90</span>	  
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                <div>
+                                    <h6 class="my-0">Nome do produto</h6>               
+                                </div>
+                                <span class="text-muted">R$ 99,90</span>	  
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                <div>
+                                    <h6 class="my-0">Nome do produto</h6>               
+                                </div>
+                                <span class="text-muted">R$ 99,90</span>	  
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between bg-light">
+                                <div class="text-danger">
+                                    <h6 class="my-0">Frete</h6>	
+                                </div>
+                                <span class="text-danger">R$ 15,00</span>
+                            </li>									
+                            <li class="list-group-item d-flex justify-content-between bg-light">
+                                <div class="text-success">
+                                    <h6 class="my-0">Cupom de desconto</h6>
+                                    <small><b>R930876</b></small>
+                                </div>
+                                <span class="text-success">-R$ 5,00</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span><b>Total</b></span>
+                                <strong>R$ 509,50</strong>
+                            </li>
+                        </ul>
+
+
+                        <!-- Promo code -->
+                        <form class="card p-2">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Código promocional" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button class="btn btn-secondary btn-md waves-effect m-0" type="button">Resgatar</button>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- Promo code -->
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+            </div>
+        </main>
+        <!--Main layout-->
+
+
+
+
+
+
+
+
+
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>

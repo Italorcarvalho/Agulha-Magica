@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <jsp:include page="cabecalho.jsp"/>
+
+    <body>
+        <!-- Barra Superior Inicio -->
+        <jsp:include page="barra_superior.jsp"/>
+        <!-- Barra Superior Final -->    
+
+        <!-- Detalhe Produto Inicio  -->
+        <div class="product-detail">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 sidebar">
+                        <div class="sidebar-widget category">
+                            <jsp:include page="categorias.jsp"/> 
+                        </div>                    
+                    </div>	
+                    <div class="col-lg-8">
+                        <div class="product-detail-top">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <div class="product-slider-single normal-slider">
+                                        <img src="${produ.img}" alt="Product Image">                                      
+                                    </div>                                    
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="product-content">
+                                        <form action="inserir.carrinho" method="POST">
+                                            <input type="hidden" name="produto_id" value="${produ.id}">
+                                            
+                                            <div class="title"><h2>${produ.nome}</h2></div>
+                                            <br>
+                                            <div class="price">
+                                                <h4>Preço:</h4>
+                                                <p>R$ ${produ.preco}</p>
+                                            </div>
+                                            <div class="quantity">
+                                                <h4>Qnt:</h4>
+                                                <div class="qty">
+                                                    <button type="button" class="btn-minus"><i class="fa fa-minus"></i></button>
+                                                    <input type="text" name="qnt" value="1">
+                                                    <button type="button" class="btn-plus"><i class="fa fa-plus"></i></button>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <div class="action">
+                                                <button type="submit" class="btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>                                         
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row product-detail-bottom">
+                            <div class="col-lg-12">
+                                <ul class="nav nav-pills nav-justified">
+                                    <li class="nav-item">
+                                        <h4>Caracteristicas do produto</h4>
+                                    </li>                                  
+                                </ul>
+                                <div class="tab-content">
+                                    <div id="description" class="container tab-pane active">
+                                        <h4>Descrição do produto</h4>
+                                        <br>
+                                        <p>
+                                            ${produ.descricao}
+                                        </p>
+                                    </div>                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+        </div>
+        <!-- Detalhe Produto Final -->
+
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        <jsp:include page="bibliotecas_rodape.jsp"/>
+    </body>
+</html>

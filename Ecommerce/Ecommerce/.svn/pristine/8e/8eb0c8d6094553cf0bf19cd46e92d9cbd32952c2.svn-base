@@ -1,0 +1,37 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package br.com.DAO;
+
+import br.com.entidade.Categoria;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+
+public class CategoriaDAO extends DAO {
+
+    public ArrayList<Categoria> selecionarTudo() throws Exception {
+        try {
+            abrirBanco();
+            String query = "SELECT * FROM categoria";
+            pst = (PreparedStatement) con.prepareStatement(query);         
+            ResultSet rs = pst.executeQuery();
+           
+            ArrayList<Categoria> lista = new ArrayList<>();
+            while (rs.next()) {
+                Categoria cat = new Categoria();
+                cat.setId(rs.getInt("id"));
+                cat.setNome(rs.getString("nome"));
+                cat.setDescricao(rs.getString("descricao"));
+                cat.setIcone(rs.getString("icone"));
+                lista.add(cat);
+            }
+            return lista;
+        } catch (Exception e) {
+            System.out.println("Erro " + e.getMessage());
+            throw e;
+        }
+    }
+}

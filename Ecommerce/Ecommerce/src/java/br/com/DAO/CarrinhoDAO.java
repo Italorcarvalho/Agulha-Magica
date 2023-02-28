@@ -1,0 +1,182 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package br.com.DAO;
+
+import br.com.entidade.Carrinho;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+
+public class CarrinhoDAO extends DAO {
+
+    public void Inserir(Carrinho cr) throws Exception {
+        try {
+            abrirBanco();
+            String query = "INSERT INTO carrinho ( produto_id, qnt, usuario_id, created) VALUES(?, ?, ?, now())";
+            pst = (PreparedStatement) con.prepareStatement(query);
+            pst.setInt(1, cr.getProduto_id());
+            pst.setInt(2, cr.getQnt());
+            pst.setInt(3, cr.getUsuario_id());
+
+            pst.execute();
+            fecharBanco();
+        } catch (Exception e) {
+            System.out.println("Erro " + e.getMessage());
+            throw e;
+        }
+    }
+
+    public void Excluir(int id) throws Exception {
+        try {
+            abrirBanco();
+            String query = "DELETE FROM carrinho WHERE id=?";
+            pst = (PreparedStatement) con.prepareStatement(query);
+            pst.setInt(1, id);
+
+            pst.execute();
+            fecharBanco();
+        } catch (Exception e) {
+            System.out.println("Erro " + e.getMessage());
+        }
+    }
+
+    public void Atualizar(Carrinho car) throws Exception {
+        try {
+            abrirBanco();
+            String query = "UPDATE carrinho SET  qnt = ? , modified = NOW() WHERE id = ?";
+            pst = (PreparedStatement) con.prepareStatement(query);
+            pst.setInt(1, car.getQnt());
+            pst.setInt(2, car.getId());
+
+            pst.execute();
+            fecharBanco();
+        } catch (Exception e) {
+            System.out.println("Erro" + e.getMessage());
+            throw e;
+        }
+    }
+
+    public Carrinho BuscarPorId(int id) throws Exception {
+        try {
+            abrirBanco();
+            String query = "SELECT id, produto_id, qnt, created FROM carrinho WHERE id = ?";
+            pst = (PreparedStatement) con.prepareStatement(query);
+            pst.setInt(1, id);
+
+            ResultSet rs = pst.executeQuery();
+
+            Carrinho car = null;
+
+            while (rs.next()) {
+                car = new Carrinho();
+                car.setId(rs.getInt("id"));
+                car.setProduto_id(rs.getInt("produto_id"));
+                car.setQnt(rs.getInt("qnt"));
+
+            }
+            fecharBanco();
+            return car;
+
+        } catch (Exception e) {
+            System.out.println("Erro " + e.getMessage());
+            throw e;
+        }
+
+    }
+
+    public ArrayList<Carrinho> BuscarPorUsuarioId(int usuario_id) throws Exception {
+        try {
+            abrirBanco();
+            String query = "SELECT id, produto_id, qnt, created FROM carrinho WHERE usuario_id = ?";
+            pst = (PreparedStatement) con.prepareStatement(query);
+            pst.setInt(1, usuario_id);
+
+            ResultSet rs = pst.executeQuery();
+
+            ProdutoDAO prd = new ProdutoDAO();
+
+            ArrayList<Carrinho> lista = new ArrayList<>();
+
+            while (rs.next()) {
+                Carrinho car = new Carrinho();
+                car.setId(rs.getInt("id"));
+                car.setProduto_id(rs.getInt("produto_id"));
+                car.setQnt(rs.getInt("qnt"));
+                car.setUsuario_id(usuario_id);
+
+                car.setProduto(prd.BuscarPorId(car.getProduto_id()));
+
+                lista.add(car);
+
+            }
+            fecharBanco();
+            return lista;
+
+        } catch (Exception e) {
+            System.out.println("Erro " + e.getMessage());
+            throw e;
+        }
+
+    }
+
+    public double BuscarTotal(int usuario_id) throws Exception {
+        try {
+            abrirBanco();
+            String query = "SELECT TRUNCATE(SUM(P.preco * C.qnt), 2) AS total FROM produto AS P INNER JOIN carrinho AS C on C.produto_id = P.id WHERE C.usuario_id = ?";
+            pst = (PreparedStatement) con.prepareStatement(query);
+            pst.setInt(1, usuario_id);
+
+            ResultSet rs = pst.executeQuery();
+
+            double total = 0.0;
+
+            while (rs.next()) {
+                total = rs.getDouble("total");
+            }
+            return total;
+
+        } catch (Exception e) {
+            System.out.println("Erro " + e.getMessage());
+            throw e;
+        }
+    }
+
+    public int BuscarTotalQuantidade(int usuario_id) throws Exception {
+        try {
+            abrirBanco();
+            String query = "SELECT SUM(qnt) AS quantidade_total FROM carrinho WHERE usuario_id = ?";
+            pst = (PreparedStatement) con.prepareStatement(query);
+            pst.setInt(1, usuario_id);
+
+            ResultSet rs = pst.executeQuery();
+
+            int total = 0;
+
+            while (rs.next()) {
+                total = rs.getInt("quantidade_total");
+            }
+            return total;
+
+        } catch (Exception e) {
+            System.out.println("Erro " + e.getMessage());
+            throw e;
+        }
+    }
+
+    public void LimparPorUsuarioId(int usuario_id) throws Exception {
+        try {
+            abrirBanco();
+            String query = "DELETE FROM carrinho WHERE usuario_id=?";
+            pst = (PreparedStatement) con.prepareStatement(query);
+            pst.setInt(1, usuario_id);
+
+            pst.execute();
+            fecharBanco();
+        } catch (Exception e) {
+            System.out.println("Erro " + e.getMessage());
+        }
+    }
+}
