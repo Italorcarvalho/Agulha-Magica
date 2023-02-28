@@ -40,8 +40,10 @@ A aplicação consiste em uma plataforma e-commerce completa de produtos artesan
 <img src="https://user-images.githubusercontent.com/65707337/221966923-2f3eae75-1d4c-4f67-aadb-bc72adfd47d4.png" />
 <h3>Edição de produto (Administrador)</h3>
 <img src="https://user-images.githubusercontent.com/65707337/221967067-1bc665fd-6dc9-4c0f-9919-1cd95a4155c0.png" width="600px"/>
-
 </div>
+
+## Vídeo da aplicação sendo executada: 
+<a href="https://www.youtube.com/watch?v=scp8WBhEahk&ab_channel=ItaloCarvalho">Link da demonstração</a>
 
 
 ## Frameworks e Tecnologias Utilizadas:
