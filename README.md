@@ -74,7 +74,7 @@ A aplicação consiste em uma plataforma e-commerce completa de produtos artesan
   <li>Apos isso selecione a pasta do projeto "Ecommerce" e clique em abrir projeto</li>
   <li>Inicie o projeto clicando F6 (Executar Porjeto) ou clique no icone de player na barra superior</li>
 </ol>
-<h5>Obs: Caso o NetBeans reclame da falta de uma biblioteca <b>.jar</b> entre nesse <a href="https://jar-download.com/artifacts/org.json">SITE</a>, faça o download e importe o arquivo na hora da execução!</h5>
+<h5>Obs: Caso o NetBeans reclame da falta de uma biblioteca <b>.jar</b> entre nesse <a href="https://jar-download.com/artifacts/org.json">LINK</a>, faça o download e importe o arquivo na hora da execução!</h5>
 
 ## Como contribuir para este projeto ?
 
