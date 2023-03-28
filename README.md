@@ -45,6 +45,11 @@ A aplicação consiste em uma plataforma e-commerce completa de produtos artesan
 ## Vídeo da aplicação sendo executada: 
 <a href="https://www.youtube.com/watch?v=scp8WBhEahk&ab_channel=ItaloCarvalho">Link da demonstração</a>
 
+## Diagrama de Banco de dados: MER
+
+<div align="center"> 
+<img src="https://user-images.githubusercontent.com/65707337/228288672-618ff43c-3203-453d-83c8-1f5dae339780.png" width="550px" />
+</div>
 
 ## Frameworks e Tecnologias Utilizadas:
 
